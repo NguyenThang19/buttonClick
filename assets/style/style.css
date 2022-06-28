@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 10px 20px;
+    margin: 40px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff ;
+}
+
+.btn:hover {
+    opacity: 0.6;
+}
+
+.btn1{
+    background-color: #ff851d;
+}
+
+.btn2{
+    background-color: #0fd517;
+}
+
+.btn3{
+    background-color: #00bcd4;
+}
+
+.btn4{
+    background-color: #ccc;
+}
+
+.toggle{
+    background-color: red;
+}
